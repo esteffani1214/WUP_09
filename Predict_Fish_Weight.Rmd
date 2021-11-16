@@ -103,14 +103,14 @@ library(car)
 subsets(regsubsets.out, statistic="adjr2", legend="bottomright",main="AdjustedR^2")
 
 ```
-
+  
 ```{r}
 RoachMODL <- lm(Weight~ Length3+Width, data=Roach)
 summary.lm(RoachMODL)
 ```
-
+  
 The best two variable regression model to predict the weight of Roach uses the Length3 and Width variables. The Adjusted R-squared is 0.8482.
-
+  
 
 # Methods
 
@@ -119,12 +119,14 @@ The best two variable regression model to predict the weight of Roach uses the L
 #Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
-
+  
 ```{r}
 basicNN <- ggplot(perch,aes(y=Weight, x=Width))
 basicNN + geom_point() + geom_smooth(method=lm) + ggtitle("Perch")
 ```
-
+  
+Above is the graph for the Perch regression model using the variables Weight and Width. 
+  
 
 ## Descriptive Results
 
