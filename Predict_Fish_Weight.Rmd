@@ -144,3 +144,7 @@ basicNN + geom_point() + geom_smooth(method=lm) + ggtitle("Perch")
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+We used charts that compared the adjusted R-squared for each two variable regression model for each respective type of fish, perch, pike, and roach. From each of these charts, we were able to conclude that the best model to find the weight of perch would have the Height and Weight variables. The best model to find the weight of pike would use the Length1 and Length3 variables. Finally the best regression model to find the weight of roach would use the Length3 and the Width variables. 
+
+
